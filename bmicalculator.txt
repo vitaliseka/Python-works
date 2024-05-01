@@ -1,0 +1,7 @@
+print("ONAS BMI CALCULATOR")
+print("Thank you " + input(str("Please enter your name\n")) + " for choosing ONAS BMI CALCULATOR\nWe are here to serve you better.")
+bmi_height = float(input("Please enter your height in metres.\n"))
+bmi_weight = int(input("Please enter your weight in kilograms.\n"))
+bmi_cal = int(bmi_weight / (bmi_height ** 2))
+print("Thank you for the information provided above.")
+print(f"Your BMI is {bmi_cal}.")
